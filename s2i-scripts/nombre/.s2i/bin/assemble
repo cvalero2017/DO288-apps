@@ -12,6 +12,7 @@ echo "---> Installing application source"
 cp -af /tmp/src/. ./
 rm -rf ./.hg ./.git ./.svn
 DATE=$(date +%Y-%m-%d) 
+echo "este cambio es para creeer ... saludos" >>./nombre.html
 echo $DATE >>./nombre.html
 echo "hola mamon" >>./nombre.html
 # Fix source directory permissions
